@@ -10,7 +10,7 @@ public class MovieXmlHandler extends DefaultHandler {
 	@Override
 	public void characters(char[] ch, int start, int length) throws SAXException {
 		for(int i=start;i<start+length;i++) {
-			System.out.println(ch[i]);
+			System.out.print(ch[i]);
 		}
 		System.out.println();
 	}
